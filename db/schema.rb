@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20160307030524) do
     t.boolean  "awesome",    default: false, null: false
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
+    t.integer "count",       default: true
   end
 
 end
